@@ -28,6 +28,6 @@ request.onreadystatechange = function() {
      }
 }
 
-request.open('GET', 'https://api.spotify.com/v1/users/hello');
+request.open('GET', 'https://grumpy-baboon-qy7t.rapidapi.io/random-number?max=10&min=1');
 request.send();
 console.log("Sista raden i koden...");
